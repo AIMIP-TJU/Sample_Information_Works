@@ -16,7 +16,7 @@ from src.utils.my_mkdir import mkdir
 
 def metric_select(method_name, originlables,num_classes, classifier_name, dataset_name, pool_embeddinglist, img_names, protolist, select_amount, labels, select_ratio,select_type,add_ratio):
     # 定义要创建的目录
-    filepath = '/home/a611/Projects/msk/NMI/IID-ADD/Selcetion/{}/{}/{}/{}/'.format(dataset_name, classifier_name,
+    filepath = '/home/a611/Projects/msk/NMI/IID-ADD/Selection/{}/{}/{}/{}/'.format(dataset_name, classifier_name,
                                                                                    method_name, select_type)
     # 调用函数创建目录
     if os.path.exists(filepath):
