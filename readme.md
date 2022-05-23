@@ -1,4 +1,4 @@
-# Title
+# Sampple Information Works
 
 ## 0. Requirements
 The code was fully tested on Ubuntu 18.04 with CUDA 11.3, GCC 7.3, Python 3.7, Pytorch 1.10.2 and OpenCV 3.4.2.
