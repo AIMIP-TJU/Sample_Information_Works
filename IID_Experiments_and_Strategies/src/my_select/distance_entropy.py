@@ -24,7 +24,7 @@ def distance_entropy_select(method_name, originlables, num_classes, classifier_n
                                                               protolist, select_ratio, select_type, add_ratio):
     # 定义要创建的目录
     global scorelist, select_data
-    filepath = './Selcetion/{}/{}/{}/{}/'.format(dataset_name, classifier_name, method_name,select_type)
+    filepath = './Selection/{}/{}/{}/{}/'.format(dataset_name, classifier_name, method_name,select_type)
     # 调用函数创建目录
     if os.path.exists(filepath):
         pass
@@ -104,7 +104,7 @@ def distance_entropy_aver(method_name, originlables, num_classes, classifier_nam
     # print(len(pool_embeddinglist))
     # 定义要创建的目录
     global scorelist, select_data
-    filepath = './Selcetion/{}/{}/{}/{}/'.format(dataset_name, classifier_name, method_name,select_type)
+    filepath = './Selection/{}/{}/{}/{}/'.format(dataset_name, classifier_name, method_name,select_type)
     # 调用函数创建目录
     if os.path.exists(filepath):
         pass
