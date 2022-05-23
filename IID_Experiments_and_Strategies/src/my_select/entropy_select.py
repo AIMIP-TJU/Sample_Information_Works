@@ -21,7 +21,7 @@ from src.utils.my_mkdir import mkdir
 def entropy_select(select_method, originlables, classifier_name, dataset_name, outputlist, img_names, select_ratio, labels,select_type,add_ratio,num_classes):
     # 定义csv存放的目录
     global select_data
-    filepath =  '/home/a611/Projects/msk/NMI/IID-ADD/Selcetion/{}/{}/{}/{}/'.format(dataset_name, classifier_name, select_method,select_type)
+    filepath =  '/home/a611/Projects/msk/NMI/IID-ADD/Selection/{}/{}/{}/{}/'.format(dataset_name, classifier_name, select_method,select_type)
     # 调用函数创建目录
     if os.path.exists(filepath):
         pass
