@@ -34,7 +34,7 @@ This directory stores multiple source files of information evaluation indicator 
 
 This directory stores multiple function files used in the main program.
 
-#### `Selcetion`
+#### `Selection`
 
 The sample index files selected for each training cycle are stored in this directory .
 
