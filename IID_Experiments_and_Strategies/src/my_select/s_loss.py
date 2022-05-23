@@ -16,7 +16,7 @@ def s_loss(method_name, originlables, classifier_name, dataset_name,
                                                  add_ratio, num_classes,losslist):
     # 定义要创建的目录
     global scorelist, select_data
-    filepath = './Selcetion/{}/{}/{}/{}/'.format(dataset_name, classifier_name, method_name,select_type)
+    filepath = './Selection/{}/{}/{}/{}/'.format(dataset_name, classifier_name, method_name,select_type)
     # 调用函数创建目录
     if os.path.exists(filepath):
         pass
